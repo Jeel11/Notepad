@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/check"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:checked="false"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:id="@+id/checkbox"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="25sp"
+        android:id="@+id/editcheck"
+        android:elevation="5dp"
+        android:layout_toRightOf="@+id/checkbox"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="25sp"
+        android:id="@+id/textcheck"
+        android:layout_toRightOf="@+id/checkbox"
+        android:visibility="gone"/>
+
+</RelativeLayout>

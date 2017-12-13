@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/screen_background_light_transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_text"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:src="@drawable/ic_note_black_36dp"
+        android:tint="@color/colorPrimaryDark"
+        android:id="@+id/image"
+        android:paddingTop="16dp"
+        />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="item"
+        android:textSize="25dp"
+        android:ellipsize="end"
+        android:paddingRight="72dp"
+        android:fontFamily="sans-serif"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/image"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:textColor="#cf2011"
+       >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/txt2"
+        android:text="subtitle"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="18dp"
+        android:paddingLeft="15dp"
+        android:fontFamily="Mononc' J"
+        android:textColor="#a2064c91"
+        android:layout_below="@+id/txt1"
+        android:layout_toRightOf="@+id/image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="time"
+        android:id="@+id/time"
+        android:gravity="bottom"
+        android:textSize="12sp"
+        android:textColor="#0f1d97"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/txt2"
+    />
+
+    </RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app', ':android-support-v4'
+include ':libs:recyclerview-animators:2.2.3'

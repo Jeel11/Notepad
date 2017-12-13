@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wordpress.zeel.notepad.MainActivity">
+    <item
+        android:id="@+id/delete"
+        android:title="delete"
+        android:icon="@drawable/ic_delete_white_36dp"
+        app:showAsAction="always"
+        android:actionLayout="@android:color/holo_red_light"
+        />
+
+
+</menu>
